@@ -1,0 +1,299 @@
+.featured - in {
+    list - style: none;padding: 0;margin: 0;text - align: center
+}.featured - in > li {
+    display: inline - block;padding: 15 px 3 % ;text - align: center
+}.featured - in > li: first - child {
+    padding - left: 0
+}.featured - in > li: last - child {
+    padding - right: 0
+}.featured - in -logo {
+    display: inline - block;height: 37 px;background: url(/assets/css / images / logos / featured - logos - bcb08e09.png) no - repeat
+}.featured - in -forbes {
+    width: 112 px
+}.featured - in -wsj {
+    width: 202 px;background - position: 0 - 94 px
+}.featured - in -nyt {
+    width: 242 px;background - position: 0 - 198 px
+}.featured - in -time {
+    width: 100 px;background - position: 0 - 298 px
+}.featured - in -timesonline {
+    width: 250 px;background - position: 0 - 394 px
+}
+@ - webkit - keyframes fadeInUp {
+    0 % {
+        opacity: 0; - webkit - transform: translateY(20 px);transform: translateY(20 px)
+    }
+    100 % {
+        opacity: 1; - webkit - transform: translateY(0);transform: translateY(0)
+    }
+}
+@keyframes fadeInUp {
+    0 % {
+        opacity: 0; - webkit - transform: translateY(20 px);transform: translateY(20 px)
+    }
+    100 % {
+        opacity: 1; - webkit - transform: translateY(0);transform: translateY(0)
+    }
+}.LikeCounter {
+    display: inline - block;text - decoration: none;color: #DEDEDE;font - size: 14 px;font - size: .875 rem;line - height: 1.43
+}.LikeCounter[class *= flicon - ] {
+    width: 14 px;height: 14 px;margin: 2 px 5 px 0;vertical - align: middle;fill: #DEDEDE;stroke: none
+}.LikeCounter[class *= flicon - ] polygon {
+    fill: #DEDEDE
+}.LikeCounter[class *= flicon - ] line {
+    stroke: none
+}.LikeCounter: hover {
+    text - decoration: none
+}.LikeCounter.is - LikeCounter - filled {
+    color: #eb3730
+}.LikeCounter.is - LikeCounter - filled[class *= flicon - ] {
+    fill: #eb3730
+}.LikeCounter.is - LikeCounter - filled[class *= flicon - ] polygon {
+    fill: #eb3730
+}.LikeCounter.is - loggedIn: hover {
+    color: #eb3730;text - decoration: underline;cursor: pointer
+}.LikeCounter.is - loggedIn: hover[class *= flicon - ] {
+    fill: #eb3730
+}.LikeCounter.is - loggedIn: hover[class *= flicon - ] polygon {
+    fill: #eb3730
+}.ShowcaseCard {
+    display: -ms - flexbox;display: -webkit - box;display: -webkit - flex;display: flex; - webkit - box - direction: normal; - webkit - box - orient: vertical; - webkit - flex - direction: column; - moz - flex - direction: column; - ms - flex - direction: column;flex - direction: column;box - shadow: 0 0 4 px 0 rgba(0, 0, 0, .08),
+    0 2 px 4 px 0 rgba(0, 0, 0, .12);border - radius: 3 px;background: #fff;position: relative;width: 100 % ;overflow: hidden;border: 0; - webkit - transition: .2 s ease - in -out;transition: .2 s ease - in -out
+}.ShowcaseCard: hover {
+    box - shadow: 0 0 6 px 0 rgba(0, 0, 0, .12), 0 4 px 10 px 0 rgba(0, 0, 0, .16)
+}.ShowcaseCard--static: hover {
+    box - shadow: 0 0 4 px 0 rgba(0, 0, 0, .08), 0 2 px 4 px 0 rgba(0, 0, 0, .12)
+}.ShowcaseCard - cover {
+    position: relative;width: 100 % ;min - height: 50 px;border - radius: 3 px;background: #F0F0F0
+}.ShowcaseCard - cover - link {
+    width: 100 % ;height: 100 % ;color: inherit
+}.ShowcaseCard - cover - link: hover {
+    color: inherit
+}.ShowcaseCard - cover: hover.ShowcaseCard - overlay {
+    opacity: 1
+}.ShowcaseCard - figure {
+    overflow: hidden
+}.ShowcaseCard - figure - image {
+    display: block;width: 100 %
+}.ShowcaseCard - figure--fixed {
+    display: -ms - flexbox;display: -webkit - box;display: -webkit - flex;display: flex; - webkit - flex - pack: center; - ms - flex - pack: center; - webkit - justify - content: center; - webkit - box - pack: center;justify - content: center; - webkit - box - align: center; - ms - flex - align: center; - webkit - align - items: center;align - items: center;height: 210 px;background: #161e2c}.ShowcaseCard-figure--fixed .ShowcaseCard-figure-image{width:100%;height:100%;font-family:"object-fit:cover";object-fit:cover}.ShowcaseCard-actions{display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center;-webkit-flex-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;-webkit-box-pack:center;justify-content:center;padding:8px 20px;background:# F7F7F7
+}.ShowcaseCard - details {
+    font - size: 14 px;
+    font - size: .875 rem;
+    line - height: 1.43;
+    padding: 11 px 20 px;
+    text - align: left;
+    color: #1f2836}.ShowcaseCard-details-primary{display:block;font-weight:700;word-break:break-word;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}.ShowcaseCard-details-secondary:hover{color:# 1 f2836
+}.ShowcaseCard - details - cta {
+    margin - top: 8 px
+}.ShowcaseCard - details--clickable {
+    cursor: -webkit - zoom - in ;cursor: zoom - in
+}.ShowcaseCard - footer {
+    display: -ms - flexbox;display: -webkit - box;display: -webkit - flex;display: flex; - webkit - box - pack: justify; - ms - flex - pack: justify; - webkit - justify - content: space - between;justify - content: space - between; - webkit - box - align: center; - ms - flex - align: center; - webkit - align - items: center;align - items: center;margin: auto 20 px 0;padding: 14 px 0;border - top: 1 px solid# DEDEDE;font - size: 14 px;font - size: .875 rem;line - height: 1.43;color: #4D525B}.ShowcaseCard-footer-primary{margin-right:12px}.ShowcaseCard-footer-secondary{margin-left:auto}.ShowcaseCard-footer-secondary .LikeCounter{display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;color:currentColor}.ShowcaseCard-footer-secondary .LikeCounter .Icon{margin-right:4px}.ShowcaseCard-footer-secondary .LikeCounter .Icon.is-Icon-filled .Icon-image{fill:# eb3730
+}.ShowcaseCard - overlay {
+    opacity: 0;position: absolute;top: 0;right: 0;bottom: 0;left: 0;z - index: 3;overflow - y: auto;border - top - left - radius: 3 px;border - top - right - radius: 3 px;text - align: center;background: -webkit - linear - gradient(rgba(14, 23, 36, .35), rgba(14, 23, 36, .1));background: linear - gradient(rgba(14, 23, 36, .35), rgba(14, 23, 36, .1)); - webkit - transition: all .2 s ease - in -out;transition: all .2 s ease - in -out
+}.ShowcaseCard - overlay--simple {
+    background: rgba(14, 23, 36, .75)
+}.ShowcaseCard - overlay--zoom {
+    cursor: pointer;cursor: -webkit - zoom - in ;cursor: zoom - in
+}.ShowcaseCard - overlay--zoom--freemiumLimited {
+    cursor: default
+}.ShowcaseCard - overlay - inner {
+    display: -ms - flexbox;display: -webkit - box;display: -webkit - flex;display: flex; - webkit - box - align: center; - ms - flex - align: center; - webkit - align - items: center;align - items: center; - webkit - flex - pack: center; - ms - flex - pack: center; - webkit - justify - content: center; - webkit - box - pack: center;justify - content: center; - webkit - box - orient: vertical; - webkit - box - direction: normal; - webkit - flex - flow: column nowrap; - ms - flex - flow: column nowrap;flex - flow: column nowrap;width: 100 % ;height: 100 %
+}.ShowcaseCard - overlay - cta {
+    cursor: pointer
+}.ShowcaseCard - overlay - cta: not(: last - child) {
+    margin - right: 10 px
+}.ShowcaseCard--horizontal {
+    -webkit - box - direction: normal; - webkit - box - orient: horizontal; - webkit - flex - direction: row; - moz - flex - direction: row; - ms - flex - direction: row;
+    flex - direction: row
+}.ShowcaseCard--horizontal.ShowcaseCard - cover {
+    width: 50 %
+}.ShowcaseCard--horizontal.ShowcaseCard - details - wrapper {
+    display: -ms - flexbox;display: -webkit - box;display: -webkit - flex;display: flex; - webkit - box - direction: normal; - webkit - box - orient: vertical; - webkit - flex - direction: column; - moz - flex - direction: column; - ms - flex - direction: column;flex - direction: column; - webkit - box - pack: end; - ms - flex - pack: end; - webkit - justify - content: flex - end;justify - content: flex - end;width: 50 %
+}.ShowcaseCard--horizontal.ShowcaseCard - details - primary, .ShowcaseCard--horizontal.ShowcaseCard - details - secondary {
+    overflow: hidden;white - space: nowrap;text - overflow: ellipsis
+}.ShowcaseCard--horizontal.ShowcaseCard - footer {
+    margin: 0 20 px
+}.ShowcaseCard--horizontal.ShowcaseCard - cover {
+    height: 210 px
+}.ShowcaseCard--horizontal.ShowcaseCard - figure {
+    position: absolute;left: 50 % ;top: 50 % ; - webkit - transform: translate(-50 % , -50 % );transform: translate(-50 % , -50 % );width: 280 px;height: 240 px;overflow: hidden;padding - top: 6 %
+}.ShowcaseCard--horizontal.ShowcaseCard - figure - image {
+    position: absolute;top: 50 % ; - webkit - transform: translateY(-50 % );transform: translateY(-50 % )
+}.SectionFeature {
+    position: relative;padding - top: 48 px;padding - bottom: 48 px
+}.SectionFeature - content {
+    position: relative
+}.SectionFeature - content~.SectionFeature - content {
+    margin - top: 48 px
+}.SectionFeature - content--center {
+    text - align: center
+}.SectionFeature - heading {
+    font - size: 32 px;
+    font - size: 2 rem;
+    line - height: 1.37;
+    font - size: calc(34 px + (41 - 34) * ((100 vw - 480 px) / (960 - 480)));
+    font - weight: 700
+}.SectionFeature - heading: last - child {
+    margin - bottom: 0
+}.SectionFeature - headingDetail {
+    font - size: 14 px;
+    font - size: .875 rem;
+    line - height: 1.43;
+    display: block;
+    margin - bottom: 16 px;
+    font - weight: 400;
+    text - transform: uppercase;
+    letter - spacing: 1 px
+}.SectionFeature - figure {
+    text - align: center
+}.SectionFeature - figure - image {
+    display: block;max - width: 100 % ;margin - right: auto;margin - left: auto
+}.SectionFeature - figure - caption {
+    font - size: 13 px;
+    font - size: .8125 rem;
+    line - height: 1.2;
+    margin - top: 4 px
+}.SectionFeature - body {
+    font - size: 16 px;
+    font - size: 1 rem;
+    line - height: 1.5
+}.SectionFeature - tagline {
+    font - size: 24 px;
+    font - size: 1.5 rem;
+    line - height: 1.33;
+    font - weight: 400
+}.SectionFeature - pullQuote {
+    font - size: 32 px;
+    font - size: 2 rem;
+    line - height: 1.37
+}.SectionFeature - pullQuoteAuthor {
+    font - size: 16 px;
+    font - size: 1 rem;
+    line - height: 1.5;
+    margin - bottom: 0;
+    font - weight: 700
+}.SectionFeature - cta - link: not(: only - child) {
+    display: block;margin - top: 8 px
+}.SectionFeature--borderTop::before {
+    position: absolute;top: 0;left: 50 % ;width: 100 % ;max - width: 1176 px;border - top: 1 px solid# DEDEDE;content: ""; - webkit - transform: translateX(-50 % );transform: translateX(-50 % )
+}.SectionFeature--light {
+    color: #F7F7F7;background: #161e2c}.SectionFeature--light .SectionFeature-cta-link{text-decoration:underline;color:# F7F7F7
+}.SectionFeature--overlay::before {
+    position: absolute;top: 0;right: 0;bottom: 0;left: 0;opacity: .66;background - image: -webkit - linear - gradient(top, #161e2c,# 0e1724);background - image: linear - gradient(to bottom, #161e2c,# 0e1724);content: ""
+}
+@media(min - width: 960 px) {.SectionFeature {
+        padding - top: 96 px;
+        padding - bottom: 96 px
+    }.SectionFeature - content~.SectionFeature - content {
+        margin - top: 0
+    }.SectionFeature - heading {
+        font - size: 32 px;
+        font - size: 2 rem;
+        line - height: 1.37
+    }.SectionFeature--compact {
+        padding - top: 48 px;
+        padding - bottom: 48 px
+    }.SectionFeature--fullWidth.SectionFeature - content~.SectionFeature - content {
+        margin - top: 48 px
+    }
+}.SectionHero {
+    -webkit - box - align: center; - webkit - align - items: center; - ms - flex - align: center;
+    align - items: center;
+    background: #1f2836;color:# F7F7F7;
+    display: -webkit - box;
+    display: -webkit - flex;
+    display: -ms - flexbox;
+    display: flex;
+    min - height: 450 px;
+    padding - bottom: 96 px;
+    padding - top: 96 px;
+    position: relative;
+    text - align: center
+}
+@media(min - width: 960 px) {.SectionHero {
+        text - align: left
+    }
+}.SectionHero - headingDetail {
+    font - size: 13 px;
+    font - size: .8125 rem;
+    line - height: 1.2;
+    letter - spacing: 1 px;
+    text - transform: uppercase
+}.SectionHero - heading {
+    font - size: 48 px;
+    font - size: 3 rem;
+    line - height: 1.17
+}.is - mobile - first.SectionHero - heading {
+    font - size: calc(41 px + (56 - 41) * ((100 vw - 480 px) / (1176 - 480)))
+}
+@media(min - width: 1176 px) {.is - mobile - first.SectionHero - heading {
+        font - size: 41 px;
+        font - size: 2.5625 rem;
+        line - height: 1.17
+    }
+}.SectionHero - tagline {
+    font - size: 20 px;
+    font - size: 1.25 rem;
+    line - height: 1.4;
+    margin - bottom: 0
+}.SectionHero - tagline--small {
+    font - size: 20 px;
+    font - size: 1.25 rem;
+    line - height: 1.4
+}.SectionHero - blockquote {
+    margin - left: 0;
+    margin - right: 0
+}.SectionHero - pullQuote {
+    font - size: 32 px;
+    font - size: 2 rem;
+    line - height: 1.37
+}.SectionHero - cta {
+    margin - top: 24 px
+}.SectionHero - cta: not(: last - child) {
+    margin - right: 16 px
+}.SectionHero--compact {
+    min - height: 240 px;
+    padding: 48 px 0
+}.SectionHero--compact.SectionHero--subNav {
+    padding - top: 96 px
+}
+@media(min - width: 960 px) {.SectionHero--compact.SectionHero - heading {
+        font - size: 32 px;
+        font - size: 2 rem;
+        line - height: 1.37
+    }
+}.SectionHero--subNav {
+    padding - top: 146 px
+}.SectionHero--large {
+    min - height: 700 px
+}.SectionHero--large.SectionHero--subNav {
+    padding - top: 194 px
+}.SectionHero--overlay::before {
+    position: absolute;top: 0;right: 0;bottom: 0;left: 0;background - image: -webkit - linear - gradient(to bottom, #161e2c,# 0e1724);background - image: -webkit - linear - gradient(top, #161e2c,# 0e1724);background - image: linear - gradient(to bottom, #161e2c,# 0e1724);content: "";opacity: .66
+}.SectionHero--dark {
+    color: #1f2836}.SectionHero--center{text-align:center}.main-content{background-color:# fff
+}.PageHowItWorks - control {
+    background - color: #F0F0F0
+}.PageHowItWorks - featuredIn {
+    padding: 24 px 0;background - color: #F0F0F0
+}.PageHowItWorks - how - sectionTitle {
+    font - size: 20 px;
+    font - size: 1.25 rem;
+    line - height: 1.4
+}.PageHowItWorks - convincer {
+    background - color: #164188}.PageHowItWorks-showcase{background-color:# F7F7F7
+}.PageHowItWorks - showcase - cards {
+    margin - bottom: 24 px
+}.PageHowItWorks - showcase - card {
+    margin - bottom: 24 px
+}.PageHowItWorks - showcase - ctaContainer {
+    text - align: center
+}.PageHowItWorks - help {
+    background - color: #F7F7F7
+}.PageHowItWorks - help - navList {
+    padding: 0;list - style - type: none
+}.PageHowItWorks - help - navItem {
+    display: inline - block;margin - bottom: 8 px
+}

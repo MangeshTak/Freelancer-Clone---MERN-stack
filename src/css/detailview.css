@@ -1,0 +1,21 @@
+.firstH2{
+	margin-top: 50px;
+}
+
+.fDiv {
+	display: flex;
+    padding: 24px;
+    box-sizing: content-box;
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #333;
+    background-color: #fff;
+    min-width: 960px;
+    border: solid;
+    border-radius: 5px;	
+}
+
+.BidImage {
+	width: 100px;
+	height: 40px;
+}

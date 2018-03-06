@@ -1,0 +1,36 @@
+.first-div {
+    background: url("../images/d.jpg");
+    padding: 10%; 
+    width : 100%;
+    background-size: 80%;
+}
+
+.third-div {
+	border: 1px solid;
+    padding: 10px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.08);
+    background: #fff;
+    border-radius: 3px;
+    position: relative;
+}
+
+.editbutton {
+	margin-left: 30px;
+	width: 150px;
+	height: 40px;
+	border-radius: 5px;
+	color: #fff;
+	background-color: #f77d0e;
+	font-size: 15px;
+}
+
+.third-div p h3 {
+	margin-left: 20px;
+	font-size: 20px;
+	font-family: Roboto,"Helvetica";
+}
+
+.ProImage {
+	width: 	100%;
+	height: 80px;
+}

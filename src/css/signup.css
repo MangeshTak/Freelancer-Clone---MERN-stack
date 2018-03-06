@@ -1,0 +1,118 @@
+.main {
+    box-shadow: 0 0 4px 0 rgba(0,0,0,.08), 0 2px 4px 0 rgba(0,0,0,.12);
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+.main h3 {
+
+  padding-top: 20px;
+  text-align: center;
+}
+
+.main img {
+  height: 60px;
+    padding-bottom: 4px;
+    stroke-width: 0;
+    vertical-align: middle;
+    width: 196px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.main div {
+
+    text-align: center;
+}
+
+.first {
+text-align: center;
+margin-top: 40px;
+box-shadow: none;
+padding: 20px 36px;
+}
+.first p{
+  padding-bottom: 20px;
+  margin:0;
+}
+.first p input {
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+      line-height: 1.43;
+    background: #fff;
+    border: 1px solid #BEC0C2;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px transparent;
+    color: #1f2836;
+    display: inline-block;
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear;
+    width: 100%;
+        padding: 0 15px;
+}
+
+.first button {
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  background: -webkit-linear-gradient(top,#139ff0 0,#0087e0 100%);
+    background: linear-gradient(to bottom,#139ff0 0,#0087e0 100%);
+    border: 1px solid #0087e0;
+    color: #F7F7F7;
+    font-weight: 700;
+    text-shadow: 0 -1px transparent;
+}
+
+.inf {
+  margin-left: 10px;
+      font-weight: 400;
+}
+
+#password {
+  margin-left: 60px;
+}
+
+#remember {
+  margin-left: 5px;
+  
+}
+
+.bottom {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.bottom-up {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  display: block;
+    margin: 0 auto;
+
+}
+
+.choice {
+  display: block;
+  position: relative;
+}
+.form-step{
+  list-style: none;
+}
+.signup-objective-label{
+  width: 50%;
+  background-clip: border-box;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  line-height: 18px;
+  text-align: center;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  background: -webkit-linear-gradient(top,#fff 0,#F0F0F0 100%);
+  background: linear-gradient(to bottom,#fff 0,#F0F0F0 100%);
+  border: 1px solid #BEC0C2;
+  color: #4D525B;
+  text-shadow: 0 -1px transparent;
+  padding: 8px 18px;
+}

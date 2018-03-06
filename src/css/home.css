@@ -1,0 +1,49 @@
+
+
+.first_new {
+  position: relative;
+  box-shadow: 0 0 4px 0 rgba(0,0,0,.08), 0 2px 4px 0 rgba(0,0,0,.12);
+  background: #fff;
+  min-height: 64px;
+  z-index: 1020; 
+}
+
+.second_new {
+  float: right;
+  margin-right: 250px;
+  font-family: Roboto,"Helvetica";
+  vertical-align: middle;
+  margin-top: 8px;
+}
+
+.second_new li a {
+  font-size: 16px;
+  padding-right: 30px;
+}
+
+.second_new li button {
+  margin-top: 6px;
+  border-radius: 3px;
+  background: linear-gradient(to bottom,#fc8c14 0,#f77d0e 100%);
+  border: 1px solid #f77d0e;
+  color: #F7F7F7;
+  font-weight: 700;
+  text-shadow: 0 -1px transparent;
+  height: 35px;
+}
+
+.image1 {
+  width:1519px;
+}
+
+.imageNew {
+  margin-top: 10px;
+  margin-left: 150px;
+  height:50px;
+}
+
+.Newa {
+  color: white;
+  padding: 10px;
+  margin-right: 0px;
+}

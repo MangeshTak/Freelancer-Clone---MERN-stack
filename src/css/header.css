@@ -1,0 +1,108 @@
+
+
+.first_new_new {
+  position: relative;
+  box-shadow: 0 0 4px 0 rgba(0,0,0,.08), 0 2px 4px 0 rgba(0,0,0,.12);
+  background: #fff;
+  min-height: 64px;
+  z-index: 1020; 
+  margin:0;
+}
+
+.second_new_new {
+  float: right;
+  padding: 0 140px;
+  font-family: Roboto,"Helvetica";
+  vertical-align: middle;
+  margin-top: 8px;
+  background-color: black;
+  width: 100%;
+  margin:0;
+}
+
+.second_new_new li a {
+  font-size: 16px;
+  padding-right: 30px;
+}
+
+.second_new_new li:last-child {
+  float: right;
+  padding-right: 150px;
+}
+
+.second_new_new li button {
+  margin-top: 6px;
+  border-radius: 3px;
+  background: linear-gradient(to bottom,#fc8c14 0,#f77d0e 100%);
+  border: 1px solid #f77d0e;
+  color: #F7F7F7;
+  font-weight: 700;
+  text-shadow: 0 -1px transparent;
+  height: 35px;
+}
+
+.imageNew_new {
+  margin-top: 10px;
+  margin-left: 150px;
+  height:40px;
+}
+
+.imageP_new {
+    display: inline-block;
+    text-decoration: none;
+    line-height: 1.5;
+    margin-left: 20px;
+    background: 0 0;
+    border: 0;
+    cursor: inherit;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: inherit;
+    padding: 0;
+    text-align: left;
+    background-color: #f7f7f7;
+}
+
+
+.inputsearch {
+      border-radius: 5px;   
+      margin-left: 40px;
+      height: 35px;
+      width: 300px;
+      margin-top: 20px;
+}
+
+.all-font {
+  font-size: 25px;
+  margin-left: 40px;
+}
+
+.secondUL {
+  width: 100%;
+}
+
+.secondUL li a {
+  color: #f7f7f7;
+  vertical-align:middle;
+  text-align: center;
+}
+
+.postbutton {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.5;
+    display: none;
+    margin-left: 16px;
+    background: linear-gradient(to bottom,#fc8c14 0,#f77d0e 100%);
+    border: 1px solid #f77d0e;
+    color: #F7F7F7;
+    font-weight: 700;
+    text-shadow: 0 -1px transparent;
+    border-radius: 3px;
+    padding: 6px 13px;
+    height: 30px;
+    margin-top: 8px;
+    text-align: center;
+    display:table-cell;
+    vertical-align:middle;
+}

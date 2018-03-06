@@ -1,0 +1,46 @@
+.fh1 {
+	float:left;
+	font-weight: 700;
+	margin-top: 50px;
+}
+
+.allTable {
+	margin-top: 50px;
+}
+
+.TableAll {
+	box-shadow: 0 0 4px 0 rgba(0,0,0,.08), 0 2px 4px 0 rgba(0,0,0,.12);
+    border-radius: 3px;
+    background: #fff;
+    width: 100%;
+    box-sizing: content-box;
+    margin-top: 30px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-color: grey;
+    width: 100%;
+    background: #F0F0F0;
+    color: #1f2836;
+    
+}
+
+.TableAll tr th {
+	padding: 20px 21px 20px 20px;
+    background: #4D525B;
+    border-color: #4D525B;
+    border-radius: none;
+    font-size: 13px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    color: #F7F7F7;
+    font-weight: bold;
+}
+
+.TableAll tr {
+	text-align: center;
+}
+
+.innerTR {
+	text-align: center;
+}
